@@ -39,14 +39,18 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
-I am a group management bot with some fun extras!
+I am an Anime themed group management bot with some fun extras [;)](https://telegra.ph/file/095d7e696096e21b06447.jpg)
+
 You can find the list of available commands with /help.
 
+[Kigyō's Repo](https://github.com/Dank-del/EnterpriseALRobot) 
+
+The support group chat is at @YorktownEagleUnion
 """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-
+I'm a part of *Eagle Union*
 Have a look at the following for an idea of some of \
 the things I can help you with.
 *Main* commands available:
@@ -166,7 +170,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Add to your group",
+                                text="Add Kigyō to your group",
                                 url="t.me/{}?startgroup=true".format(bot.username),
                             )
                         ]
