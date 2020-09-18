@@ -168,7 +168,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                                 text="Add to your group",
                                 url="t.me/{}?startgroup=true".format(bot.username),
                             )
-                        ] [InlineKeyboardButton(
+                        ] InlineKeyboardButton
                     ].        text="✔️Owner",
                 ),.           url="@T_r_oy"
             )
