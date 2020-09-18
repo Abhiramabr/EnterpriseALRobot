@@ -168,9 +168,9 @@ def start(bot: Bot, update: Update, args: List[str]):
                                 text="Add to your group",
                                 url="t.me/{}?startgroup=true".format(bot.username),
                             )
-                        ] InlineKeyboardButton(
-                    ].       text="✔️Owner",
-                ),.          url="@T_r_oy".format(owner.username),
+                        ] 
+                    ]. 
+                ),.        
             )
     else:
         update.effective_message.reply_text("Hi, I'm Kigyo.")
