@@ -39,7 +39,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
-I am a group management bot with some fun extras!
+I am a group management bot!
 You can find the list of available commands with /help.
 
 """
@@ -63,7 +63,7 @@ And the following:
 )
 
 
-KIGYO_IMG = "https://telegra.ph/file/e5100e06c03767af80023.jpg"
+KIGYO_IMG = "https://telegra.ph/file/f8af481e9fad7af9a4348.jpg"
 
 DONATE_STRING = """I'm free for everyone!! """
 
