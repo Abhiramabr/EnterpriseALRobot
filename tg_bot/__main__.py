@@ -173,7 +173,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 ),
             )
     else:
-        update.effective_message.reply_text("Hi, I'm Kigyo.")
+        update.effective_message.reply_text("Yo I'm alive")
 
 
 # for test purposes
